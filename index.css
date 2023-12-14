@@ -127,12 +127,12 @@ button:hover {
     }
     .footer_left,
         .footer_right {
-            width: 100%; /* Make both left and right sections take full width */
+            width: 100%; 
             text-align: left;
         }
 
         #Terms {
-            text-align: left; /* Align "Terms" to the left */
+            text-align: left; 
         }
 
 }
