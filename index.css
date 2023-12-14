@@ -102,7 +102,7 @@ button:hover {
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
     body {
-        padding: 10px; /* Add padding for tablets */
+        padding: 10px; 
     }
 
     .header,
@@ -111,11 +111,12 @@ button:hover {
     button {
         padding: 2% 3%;
     }
+    
 }
 
 @media screen and (max-width: 600px) {
     body {
-        padding: 20px; /* Add more padding for smaller screens */
+        padding: 20px; 
     }
 
     .header,
@@ -124,4 +125,14 @@ button:hover {
     button {
         padding: 5% 10px;
     }
+    .footer_left,
+        .footer_right {
+            width: 100%; /* Make both left and right sections take full width */
+            text-align: left;
+        }
+
+        #Terms {
+            text-align: left; /* Align "Terms" to the left */
+        }
+
 }
